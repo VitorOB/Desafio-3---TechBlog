@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.header {
+  display: flex;
+  height: 560px;
+  justify-content: center;
+  align-items: center;
+  gap: 235px;
+  background-color: var(--bgSite);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 235px;
+}
+
+.content__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 550px;
+}
+
+.content__header h1 {
+  color: var(--title);
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%; /* 48px */
+}
+
+.content__header span {
+  color: var(--buttonColor);
+  font-family: "Merriweather", serif;
+}
+
+.content__header p {
+  color: var(--text);
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  line-height: 150%; /* 36px */
+}
+
+.content__header .btn {
+  padding: 14px 32px;
+  border-radius: 4px;
+  background: #846aff;
+  text-transform: uppercase;
+  color: var(--white300);
+  cursor: pointer;
+}
+
+.content__header .btn:hover,
+.form__inputs button:hover {
+  background: #4b2af1;
+}
+
+.img {
+  background: url("./image/image.png") 50% / cover no-repeat;
+  width: 400px;
+  height: 460px;
+}
+
+.container__posts {
+  display: flex;
+  width: 100%;
+  padding: 80px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background-color: var(--white300);
+}
+
+.content {
+  width: 1216px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #eef;
+  margin: 0 10px 15px;
+  cursor: pointer;
+}
+
+.card .card__posts {
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.card img {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  padding: 80px 0px;
+  background-color: var(--white300);
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+input,
+textarea {
+  width: 592px;
+  padding: 19px 24px;
+  border-radius: 4px;
+}
+
+.form__inputs button {
+  width: 592px;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background: #846aff;
+  text-transform: uppercase;
+  color: var(--white);
+  cursor: pointer;
+}
