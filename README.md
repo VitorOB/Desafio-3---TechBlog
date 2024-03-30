@@ -7,4 +7,6 @@ Foi desenvolvido com:
 - HTML
 - CSS - Flexbox & Grid
 
+- Deploy: https://vitorob.github.io/Desafio-3---TechBlog/
+
 <img src="./image/tela.gif">
